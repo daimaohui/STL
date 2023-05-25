@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/array.h
+iostream
+-
+cstring
+-
+stl_alloc.h
+../include/stl_alloc.h
+
+../include/stl_alloc.h
+new
+-
+
+/mnt/c/Users/daimaohui/Desktop/C++/STL/main.cpp
+array.h
+/mnt/c/Users/daimaohui/Desktop/C++/STL/array.h
+new
+-
+
