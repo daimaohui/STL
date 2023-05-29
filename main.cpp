@@ -1,4 +1,5 @@
 #include "array.h"
+#include "sort.h"
 #include <new>
 void test_array(){
     array<int> arr=array<int>(10);
@@ -15,6 +16,12 @@ void test_array(){
     arr3.printf();
 }
 int main(){
-    test_array();
+    // test_array();
+    std::vector<int> vec={9,7,8,6,5,7,4,5,3,4,5,6,1,2,4};
+    // quick_sort(vec,0,vec.size()-1);
+    // inster_sort(vec);
+    // Selection_Sort(vec);
+    heapSort(vec);
+    print_array(vec);
     return 0;
 }
